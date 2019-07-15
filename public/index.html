@@ -36,27 +36,12 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <header>Quixel Gallery</header>
 
-    <h2>Method 1</h2>
-    <h3>Here in this method i used flexbox gallery which is a flexbox justified image gallery with CSS and JQuery </h3>
-
-
-    <div id="container"></div>
-
-   <script type="text/javascript">
-       let media = $.getJSON('media.json', (media) => {
-           $('#container').addFlexImages(media, true).flexGallery({
-               margin: '0vmin',
-               minHeightRatioWindow: 0.25,
-               fadeInDuration: 2000,
-               checkPeriod: 1000,
-               autoAdjust: true
-           });
-       });
-   </script>
-
-    <h2>Method 2</h2>
-    <h3>This image gallery is created using react js only </h3>
+    <div class="title-container">
+      <h2>Method 3</h2>
+      <h3>This image gallery is created using react js only without using any 3rd party library </h3>
+  </div>
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

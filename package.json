@@ -1,12 +1,11 @@
 {
-  "homepage": "https://github.com/Arshiii1425/Responsive-Image-Gallery-Quixel-Task",
+  "homepage": "https://github.com/Arshiii1425/Responsive-Image-Gallery-",
   "name": "image-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fluid-grid": "^1.0.9",
     "react-scripts": "3.0.1"
   },
   "scripts": {

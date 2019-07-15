@@ -1,1 +1,102 @@
+.container-all{
+  width: fit-content;
+  height: auto;
+}
+.container{
+  width: calc(20% - 6px);
+  overflow:hidden;
+  height: fit-content;
+  margin:3px;
+  padding: 0;
+  display:block;
+  position:relative;
+  float:left;
+}
+img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  height: 170px;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+}
 
+.container{
+    -moz-transition: width 1s ease-in-out, left 1 ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1s ease-in-out;
+    transition: width 1s ease-in-out, left 1s ease-in-out;
+}
+.title{
+  position:absolute;
+  display:block;
+  cursor:pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+.text{
+  position:absolute;
+  top: 70%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%) 
+}
+.container:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+.container:hover span{
+  color:white;
+  display: block;
+  transition-duration: .3s;
+}
+
+@media only screen and (max-width: 509px) {
+    .container {
+      width: 100%;
+    }
+}
+@media only screen and (min-width: 510px) and (max-width: 799.9px) {
+  .container {
+      width: 49.9%;
+      margin: 0 0;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1019.9px) {
+  .container {
+      width: 32.9%;
+      margin: 0 0;
+  }
+}
+@media only screen and (min-width: 920px) and (max-width: 1123.9px) {
+  .container {
+      width: 24.9%;
+      margin: 0 0;
+  }
+}
+
+@media only screen and (min-width: 1124px) {
+  .container {
+      width: 19.9%;
+      margin: 0 0;
+  }
+}
