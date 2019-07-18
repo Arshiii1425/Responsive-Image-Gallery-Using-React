@@ -4,11 +4,11 @@ import './GalleryItem.css';
 class GalleryItem extends Component{
     render(){
         return(
-            <div className="container">
-                <a href={this.props.imageUrl}>
-                    <img src = {this.props.thumbnail} alt=""></img>
+            <div className="container-item">
+                <a className = "container-img" href={this.props.imageUrl}>
+                    <img className="img" src = {this.props.thumbnail} alt=""></img>
                 </a>
-                <span className="title">{this.props.desc}</span>
+                <span className="img-desc">{this.props.desc}</span>
             </div>
         );
     }
