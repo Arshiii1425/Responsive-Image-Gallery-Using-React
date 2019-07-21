@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9026889f7ae378c7776b9084ac14e2f7",
+    "revision": "b5feabec943799e619cca8a13033d13a",
     "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/index.html"
   },
   {
-    "revision": "acff65629a485720fcbc",
-    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/css/main.6c2f7586.chunk.css"
+    "revision": "b4430df89bc97f596324",
+    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/css/main.caa3cc47.chunk.css"
   },
   {
-    "revision": "7e2b8530206fb761ee70",
-    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/js/2.709c391a.chunk.js"
+    "revision": "3dbf4140c09ffd01650c",
+    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/js/2.127a1c15.chunk.js"
   },
   {
-    "revision": "acff65629a485720fcbc",
-    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/js/main.5710e77c.chunk.js"
+    "revision": "b4430df89bc97f596324",
+    "url": "/Arshiii1425/Responsive-Image-Gallery-Using-React/static/js/main.a4d0f791.chunk.js"
   },
   {
     "revision": "173c44f428a9a6d3960f",
