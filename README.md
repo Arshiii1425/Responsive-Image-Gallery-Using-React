@@ -18,14 +18,10 @@ It will start the browser which will automatically run the application, in case 
 
 
 ## On Medium Screen (Tablet)
-
-![67](https://user-images.githubusercontent.com/48798742/61594033-83a33700-ac00-11e9-91e9-c2a516f9ce3c.PNG)
-
-
-## On Small Screen (Mobile Devices)
-
 ![68](https://user-images.githubusercontent.com/48798742/61594043-99186100-ac00-11e9-8318-f46bcd4ffc24.PNG)
 
+## On Small Screen (Mobile Devices)
+![67](https://user-images.githubusercontent.com/48798742/61594033-83a33700-ac00-11e9-91e9-c2a516f9ce3c.PNG)
 ## Available Scripts
 
 In the project directory, you can run:
