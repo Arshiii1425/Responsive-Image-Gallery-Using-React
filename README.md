@@ -1,4 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Responsive Image Gallery Using React JS [Without Any 3rd party library]
+This application is created using react js.
+
+## Running the application
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+After cloning the project, goto the project directoy, run command prompt and then give these command...
+
+### `npm install` 
+wait for few minutes and after that run below command.
+### `npm start`
+It will start the browser which will automatically run the application, in case of application not running automatically then manually goto the browser and open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Demo (on different screen sizes)
+
+## On Full Screen (PC)
+![66](https://user-images.githubusercontent.com/48798742/61594013-4dfe4e00-ac00-11e9-83e9-83442592da93.PNG)
+
+
+## On Medium Screen (Tablet)
+
+![67](https://user-images.githubusercontent.com/48798742/61594033-83a33700-ac00-11e9-91e9-c2a516f9ce3c.PNG)
+
+
+## On Small Screen (Mobile Devices)
+
+![68](https://user-images.githubusercontent.com/48798742/61594043-99186100-ac00-11e9-8318-f46bcd4ffc24.PNG)
 
 ## Available Scripts
 
