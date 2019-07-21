@@ -1,7 +1,7 @@
 .container {
 	display: flex;
-	overflow: hidden;
   flex-wrap: wrap;
+  /* justify-content: center; */
  
 }
 .container:after {
@@ -20,19 +20,18 @@
      min-width: calc(100vw / 4);
 }
 .container-item{
-	position: relative;
+  position: relative;
 	display: block;
   flex-grow: 1;
   overflow: hidden;
-  transition: all 2s;
+ 
 }
 
 .img {
 	height: 200px;
-	object-fit: cover;
-	max-width: 100%;
-	min-width: 100%;
-  vertical-align: bottom;
+    vertical-align: bottom;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 .img-desc {
